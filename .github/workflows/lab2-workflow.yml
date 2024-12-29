@@ -7,9 +7,11 @@ on:
         type: boolean
         description: Run Specific Job
         required: false
+
       custom_message:
         required: true
         type: string
+        description: Enter a custom message
 
 jobs:
   job1:
